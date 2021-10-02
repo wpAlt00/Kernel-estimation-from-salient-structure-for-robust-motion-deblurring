@@ -9,7 +9,7 @@ addpath(genpath('image'));
 window_size = 5;
 lambda_kernel_smooth = 1e-5; %(Adjustable, typically 1e-5, 1e-4, 1e-3)
 % if the kernel contains obvious noise, large value may help (e.g., for test1_blur.png (1e-3))
-display = 0;
+display = 1;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % %% example 1
 % filename = 'image\details_blur2_45.png';
